@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            text-decoration: none;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            border: 5px double black;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        form input, button{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">shop</a>
+            <a href="">display</a>
+        </div>
+        <a href="">login</a>
+    </nav>
+
+    <section>
+        <form>
+            <h4>login Form</h4>
+            <input type="text" placeholder="your name" required>
+            <input type="text" placeholder="Email" required>
+            <button>login</button>
+        </form>
+    </section>
+
+</body>
+</html>

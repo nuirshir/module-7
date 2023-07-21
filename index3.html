@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns:  repeat(4, 100px)  ;
+            column-gap: 10px;
+            
+        }
+        .item{
+            border: 1px solid tomato;
+            border-collapse: collapse;
+        }
+
+
+        
+        .calender{
+            
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            width: 450px;
+            height: 300px;
+        }
+        .date{
+            border: 1px solid rgba(105, 110, 92, 0.363);
+            border-radius: 5px;
+            border-collapse: collapse;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(143, 255, 218, 0.507);
+            font-size: 1.2em;
+            margin-bottom: 2px;
+        }
+        .day{
+            border: 1px solid rgba(105, 110, 92, 0.363);
+            border-radius: 5px;
+            border-collapse: collapse;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 255, 115, 0.61);
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>2D layout</h3>
+    <div class="container">
+       <div class="item">item -1</div>
+       <div class="item">item -2</div>
+       <div class="item">item -3</div>
+       <div class="item">item -4</div>
+       <div class="item">item -5</div>
+       <div class="item">item -6</div>
+       <div class="item">item -7</div>
+       <div class="item">item -8</div>
+       <div class="item">item -9</div>
+       <div class="item">item -10</div>
+       <div class="item">item -11</div>
+       <div class="item">item -12</div>
+       <div class="item">item -13</div>
+       <div class="item">item -14</div>
+       <div class="item">item -15</div>
+       <div class="item">item -16</div>
+       <div class="item">item -17</div>
+       <div class="item">item -18</div>
+       <div class="item">item -19</div>
+       <div class="item">item -20</div>
+    </div>
+
+    <div class="calender">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day">S</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+    </div> 
+
+
+</body>
+</html>
